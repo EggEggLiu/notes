@@ -65,3 +65,5 @@ child.bar = 2;
 - 禁止`set`和`deleteProperty`
 
 深只读同样递归包裹
+
+## 代理数组
