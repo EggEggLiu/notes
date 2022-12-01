@@ -1,8 +1,13 @@
 GPU Pipeline
+
 RHI
+
 Shader(VertexShader画点决定形状 + FragmentShader着色[插值算法], GeometryShader决定精细程度，可以加点增强清晰度)
+
 光栅化(确定小块的归属问题)
+
 BRDF(积分integral)
+
 从Camera出发，而不是光源出发，从而减少计算量
 
 OpenGL、Vulkan、DX
@@ -23,7 +28,9 @@ glad
 静态库.lib和动态库.dll
 
 VAO(点集规范)
+
 VBO(点数据)
+
 EBO(边数据)
 
 GLSL写vs、fs送进GPU里绑定program
